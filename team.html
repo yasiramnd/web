@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <link rel="icon" type="image/png" id="titlelogo" href="logo.png">
+    <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="css/navibar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    
+    
+    
+    
+</head>
+
+<style>
+    
+    body{
+        background-image: url(./cybs.jpg.jpg);
+    }
+    .logo {
+            width: 50px;
+            height: auto;
+            
+        }
+    
+    #titlelogo{
+        border-radius: 50%;
+    }
+    /*nav{
+        background-color: aqua;
+        display:block;
+        margin: left 20px;;
+    } */
+    .team_Member {
+        width: 250px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .student-logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .student_details p {
+        margin: 5px 0;
+    }   
+
+    .container {
+    display: grid;
+        border-radius: 15px;
+        
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+    padding: 2rem;
+    position: relative;
+    top: 150px;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    
+   
+    padding-top: 10px;
+    }
+    .team{
+        display: grid;
+        
+        padding: 80px;
+        border-radius: 20px;
+        border: 2px solid rgba(255, 255, 255, .5);
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 30px rgb(164, 161, 161);
+        text-align: center;
+        position: relative;
+        top: 150px;
+        left: 120px;
+        font-size: 20px;
+        margin-bottom: 250px;
+    }
+    .header{
+        margin-bottom: 250px;
+    }
+
+  
+</style>
+<body>
+    <header class="header">
+        
+        <nav>
+            <a href="index.html" class="logo_link">
+              <div class="site-logo">
+                 <img class="logo-white" src="images/logo-white2.png" alt="logo white">
+                 <img class="logo-blue" src="images/logo-blue.png" alt="logo blue">
+                 <h1 class="topic">Life Below Water</h1>
+              </div>
+            </a>
+              
+            <div class="desktop-menu">
+                 <a class="active" href="home.html">Home</a>
+                 <a href="volunteer.html">Volunteer</a>
+                 <a href="table.html">Table</a>
+                 <a href="user-profile.html">User Profile</a>
+                 <a href="feedback.html">Feedback</a>
+                 <a href="sitemap.html">Sitemap</a>
+                 <a href="team.html">Team</a>
+            </div>
+            <button class="hamburger">
+               <span class="material-icons">menu</span>
+               
+            </button>
+          </nav>
+
+        
+        
+    </header>
+
+        <div class="team">
+        <h1>OUR TEAM</h1>
+        
+        <div class="container">
+        <div class="team_Member">
+            <a > <img class="student-logo" src="person1.jpg"
+                    alt="student_2"></a>
+            <div class="student_details">
+                <p><strong>eka</strong></p>
+                <p>Student 1</p>
+                <p >plash Screen | Shop</p>
+            </div>
+        </div>
+
+        <div class="team_Member">
+            <a > <img class="student-logo" src="person2.jpg"
+                alt="student_2"></a>
+            <div class="student_details">
+                <p><strong>deka</strong></p>
+                <p>Student 2</p>
+                <p > Home | Feedback</p>
+            </div>
+        </div>
+
+        <div class="team_Member">
+            <a > <img class="student-logo" src="person3.jpg"
+                alt="student_3"></a>
+            <div class="student_details">
+                <p><strong>thuna</strong></p>
+                <p>Student 3</p>
+                <p >Feedback page | Team</p>
+            </div>
+        </div>
+
+        <div class="team_Member">
+            <a > <img class="student-logo" src="person4.jpg"
+                alt="student_4"></a>
+            <div class="student_details">
+                <p><strong>Nithika Thewjan</strong></p>
+                <p>Student 4</p>
+                <p > Gallery | Site Map</p>
+            </div>
+        </div>
+    </div>
+        </div>
+
+    
+
+
+
+
+    
+    <footer class="footer">
+        <ul class="menu">
+          <li class="menu_item">
+            <a class="menu_link" href="home.html">Home</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="volunteer.html">Volunteer</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="table.html">Table</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="user-profile.html">User Profile</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="feedback.html">Feedback</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="sitemap.html">Sitemap</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="team.html">Team</a>
+          </li>
+        </ul>
+        <p>©2024 LIFE Below Water | All Rights Reserved</p>
+     </footer>
+    
+
+
+    
+</body>
+
+</html>
