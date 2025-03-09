@@ -1,323 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protecting Coral Reefs</title>
-    
+    <title>Threats to Marine Life</title>
+    <link rel="stylesheet" type="text/css" href="css/contentpage3.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_control_key" />
+
+
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        body {
-            background-color: #f0f8ff;
-            color: #333;
-            line-height: 1.6;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #0077be, #00a6d6);
-            color: white;
-            text-align: center;
-            padding: 3rem 1rem;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        
-        
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-        
-        .navcon {
-            background-color: #006994;
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            
-            
-        }
-        
-        .navcon ul {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-        }
-        
-        .navcon ul li {
-            margin: 0 1rem;
-        }
-        
-        .navcon ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        
-        .navcon ul li a:hover {
-            color: #f0f0f0;
-            text-decoration: underline;
-        }
-        
-        .hero {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        h2 {
-            font-size: 2rem;
-            color: #006994;
-            margin: 2rem 0 1rem;
-            border-bottom: 2px solid #88d9e6;
-            padding-bottom: 0.5rem;
-        }
-        
-        
-        
-        .card-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin: 2rem 0;
-        }
-        
-        .card {
-            flex: 0 0 calc(33.333% - 1rem);
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 1.5rem;
-            overflow: hidden;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        
-        .card:hover {
-            transform:scale(1.02);
-            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
-        }
-        
-        .card-img {
-            height: 200px;
-            background-color: #88d9e6;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 2rem;
-        }
-        
-        .card-content {
-            padding: 1.5rem;
-        }
-        
-        .button {
-            display: inline-block;
-            background-color: #006994;
-            color: white;
-            padding: 0.8rem 1.5rem;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: 500;
-            transition: background-color 0.3s;
-            margin-top: 1rem;
-        }
-        
-        .button:hover {
-            background-color: #004d6d;
-        }
-        .button-container {
-            gap: 10px;
-            margin-left: 10px;
-        }
-        
-        .facts {
-            background-color: #e1f5fe;
-            padding: 2rem;
-            border-radius: 8px;
-            margin: 2rem 0;
-        }
-        
-        .facts ul {
-            list-style-type:square;
-        }
-        
-        .facts ul li {
-            padding: 0.5rem 0;
-            border-bottom: 1px solid #b3e5fc;
-        }
-        
-        
-        .facts ul li::before {
-            
-            margin-right: 0.5rem;
-        }
-        
-        
-        footer {
-            background-color: #004d6d;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 3rem;
-        }
-        
-        
-       
+
+
+
     </style>
 </head>
+
 <body>
-       
+
     <header>
-        <div class="container hero">
-            <h1>Protecting Our Coral Reefs</h1>
-            <p>Preserving the rainforests of the ocean for future generations</p>
+        <div id="top" class="container hero">
+            <h1>Threats to Marine Life</h1>
+            <p>Understanding and addressing the challenges facing our oceans</p>
         </div>
     </header>
     
     <nav class="navcon">
         <ul>
-            <li><a href="#about">About Coral Reefs</a></li>
-            <li><a href="#threats">Threats</a></li>
-            <li><a href="#protection">Protection Efforts</a></li>
+            <li><a href="#about">About Marine Life</a></li>
+            <li><a href="#threats">Major Threats</a></li>
+            <li><a href="#protection">Conservation Efforts</a></li>
             <li><a href="#get-involved">Get Involved</a></li>
         </ul>
+        
     </nav>
     <div class="button-container">
         <a href="index.html" class="button">Go to Home</a>
         <a href="another-page.html" class="button">Content</a>
     </div>
-    
+
     <div class="container">
         <section id="about">
-            <h2>About Coral Reefs</h2>
-            <p>Coral reefs are diverse underwater ecosystems held together by calcium carbonate structures secreted by corals. They are built by colonies of tiny animals found in marine waters that contain few nutrients. Often called "rainforests of the sea," coral reefs form some of the most diverse ecosystems on Earth.</p>
-            
+            <h2>About Marine Life</h2>
+            <p>The ocean covers more than 70% of our planet and is home to an incredible diversity of life forms—from
+                microscopic plankton to the largest animal ever to have lived, the blue whale. Marine ecosystems provide
+                essential services to all life on Earth, including oxygen production, climate regulation, and food
+                security for billions of people.</p>
+
             <div class="facts">
-                
+
                 <ul>
-                    <li>Coral reefs cover less than 1% of the ocean floor but support 25% of all marine species</li>
-                    <li>The Great Barrier Reef is the world's largest coral reef system</li>
-                    <li>Coral reefs are living museums and reflect thousands of years of history</li>
-                    <li>Some corals can live for up to 5,000 years</li>
-                    <li>Coral reefs contribute billions of dollars to local economies through tourism and fisheries</li>
+                    <li>The ocean produces over 50% of the world's oxygen and absorbs 50 times more carbon dioxide than
+                        our atmosphere</li>
+                    <li>Over 80% of marine biodiversity remains undiscovered by science</li>
+                    <li>Oceans provide the primary source of protein for more than 3 billion people worldwide</li>
+                    <li>Marine fisheries employ more than 200 million people globally</li>
+                    <li>The deep sea contains the largest habitat on Earth, yet less than 20% has been explored</li>
                 </ul>
             </div>
         </section>
-        
+
         <section id="threats">
-            <h2>Threats to Coral Reefs</h2>
-            <p>Despite their importance, coral reefs face numerous threats that have contributed to a significant decline in reef cover worldwide. Understanding these threats is essential to developing effective conservation strategies.</p>
-            
+            <h2>Major Threats to Marine Life</h2>
+            <p>Despite their vastness, our oceans face unprecedented pressures from human activities, causing rapid
+                decline in marine biodiversity and ecosystem health. Understanding these threats is crucial for
+                developing effective conservation strategies.</p>
+
             <div class="card-container">
                 <div class="card">
                     <div class="card-img">🌡️</div>
                     <div class="card-content">
                         <h3>Climate Change</h3>
-                        <p>Rising ocean temperatures lead to coral bleaching, where corals expel the algae living in their tissues, turning completely white and often dying.</p>
+                        <p>Rising ocean temperatures, changing currents, and more frequent extreme weather events are
+                            disrupting marine ecosystems and forcing species to migrate or adapt rapidly.</p>
                     </div>
                 </div>
-                
+
                 <div class="card">
-                    <div class="card-img">🏭</div>
+                    <div class="card-img">🗑️</div>
                     <div class="card-content">
-                        <h3>Ocean Acidification</h3>
-                        <p>Increased carbon dioxide in the atmosphere is absorbed by oceans, making the water more acidic and reducing corals' ability to build their skeletons.</p>
+                        <h3>Plastic Pollution</h3>
+                        <p>Each year, millions of tons of plastic enter the oceans, breaking down into microplastics
+                            that enter the food chain and harm marine life through ingestion and entanglement.</p>
                     </div>
                 </div>
-                
+
                 <div class="card">
-                    <div class="card-img">🏊‍♂️</div>
+                    <div class="card-img">🎣</div>
                     <div class="card-content">
-                        <h3>Human Activities</h3>
-                        <p>Overfishing, destructive fishing practices, coastal development, and pollution all directly damage coral reef ecosystems.</p>
+                        <h3>Overfishing</h3>
+                        <p>Unsustainable fishing practices have depleted many fish stocks worldwide, disrupting marine
+                            food webs and threatening species with extinction.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <section id="protection">
-            <h2>Protection Efforts</h2>
-            <p>Around the world, scientists, conservationists, governments, and local communities are working together to protect and restore coral reef ecosystems.</p>
-            
+            <h2>Conservation Efforts</h2>
+            <p>Around the world, scientists, conservationists, governments, and local communities are working together
+                to protect marine ecosystems and the biodiversity they support.</p>
+
             <div class="card-container">
                 <div class="card">
-                    <div class="card-img">🔬</div>
+                    <div class="card-img">📋</div>
                     <div class="card-content">
-                        <h3>Research & Monitoring</h3>
-                        <p>Scientists monitor reef health and conduct research to better understand reef ecosystems and develop more effective conservation methods.</p>
+                        <h3>Policy & Regulation</h3>
+                        <p>International agreements like the UN Convention on the Law of the Sea and regional fisheries
+                            management organizations set rules for sustainable use of marine resources.</p>
                     </div>
                 </div>
-                
+
                 <div class="card">
                     <div class="card-img">🌊</div>
                     <div class="card-content">
                         <h3>Marine Protected Areas</h3>
-                        <p>Establishing protected areas where human activities are limited helps reefs recover and thrive, acting as sanctuaries for marine life.</p>
+                        <p>Establishing protected zones where human activities are restricted helps marine ecosystems
+                            recover and build resilience to ongoing threats.</p>
                     </div>
                 </div>
-                
+
                 <div class="card">
-                    <div class="card-img">🌱</div>
+                    <div class="card-img">🔬</div>
                     <div class="card-content">
-                        <h3>Restoration Projects</h3>
-                        <p>Coral nurseries and transplantation efforts help rebuild damaged reef systems by growing coral fragments in controlled environments.</p>
+                        <h3>Scientific Research</h3>
+                        <p>Advancing our understanding of marine ecosystems through research and monitoring helps
+                            develop more effective conservation strategies.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <section id="get-involved">
             <h2>How You Can Help</h2>
-            <p>Everyone can play a role in protecting coral reefs, even if you don't live near the ocean. Here are some ways you can contribute to coral reef conservation.</p>
-            
+            <p>Everyone can play a role in protecting marine life, even if you don't live near the coast. Here are some
+                ways you can contribute to marine conservation.</p>
+
             <div class="card-container">
                 <div class="card">
                     <div class="card-img">♻️</div>
                     <div class="card-content">
-                        <h3>Reduce Your Carbon Footprint</h3>
-                        <p>Minimize energy consumption, use renewable energy sources, and support policies that address climate change.</p>
+                        <h3>Reduce Plastic Use</h3>
+                        <p>Choose reusable alternatives to single-use plastics and participate in beach or waterway
+                            cleanups in your local community.</p>
                     </div>
                 </div>
-                
+
                 <div class="card">
-                    <div class="card-img">🧴</div>
+                    <div class="card-img">🐟</div>
                     <div class="card-content">
-                        <h3>Use Reef-Safe Products</h3>
-                        <p>Choose sunscreens and personal care products that don't contain harmful chemicals like oxybenzone that can damage coral reefs.</p>
+                        <h3>Choose Sustainable Seafood</h3>
+                        <p>Use seafood guides to make informed choices and support businesses committed to sustainable
+                            fishing practices.</p>
                     </div>
                 </div>
-                
+
                 <div class="card">
-                    <div class="card-img">💰</div>
+                    <div class="card-img">🗣️</div>
                     <div class="card-content">
-                        <h3>Support Conservation Organizations</h3>
-                        <p>Donate to or volunteer with organizations dedicated to coral reef conservation and research.</p>
+                        <h3>Advocate for Ocean Protection</h3>
+                        <p>Support policies that address climate change, marine pollution, and sustainable management of
+                            ocean resources.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
+
 
     </div>
-    
+    <a href="#">
+    <span class="material-symbols-outlined">
+        keyboard_control_key
+        </span></a>
+
     <footer>
         <div class="container">
             <p>&copy;2024 LIFE Below Water | All Rights Reserved</p>
-            
+
         </div>
     </footer>
 </body>
+
 </html>
