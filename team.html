@@ -50,26 +50,47 @@
         
     }
     
-    .team_Member:hover :before {
-    opacity: 1;
-    }
 
-    .team_Member:hover  .info {
+    .team_Member:hover  .student_details {
     opacity: 1;
     transform: translateY(0px);
+    bottom: 0px;
+    visibility: visible;
+    
+    transition: opacity 0.3s ease, visibility 0s ease 0s;
     }
 
     .student-logo {
         width: 100px;
-        height: 100px;
+        height: 200px;
         border-radius: 50%;
         object-fit: cover;
         margin-bottom: 10px;
     }
 
     .student_details p {
-        margin: 5px 0;
+        
+
     }   
+    .student_details{
+        justify-items: center;
+    align-items: start;
+        text-align: center;
+        position: absolute;
+        bottom: 100%; /* Position content box above the icon */
+        left:20px;
+        transform: translateX(-50%); /* Center it horizontally */
+       
+        border-radius: 5px;
+        visibility: hidden; 
+        opacity: 0; 
+        opacity: 0;
+        transition: opacity 0.3s ease, bottom 0.3s ease;
+        padding: 2.5rem;
+        box-sizing: border-box;
+        
+        
+    }
 
     .container {
     display: grid;
@@ -108,12 +129,7 @@
         margin-bottom: 250px;
         flex-shrink: 0;
     }
-    @keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
-    }
+    
 
     /* The element to apply the animation to */
     div {
