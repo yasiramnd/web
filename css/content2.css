@@ -61,11 +61,7 @@ font-variation-settings:
     color: white;
 }
 
-#importance img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
+
 
 #importance h2, #importance p {
     position: absolute;
@@ -80,7 +76,7 @@ font-variation-settings:
 
 .importance img {
     width: 100%;
-    height: 700px;
+    height: 500px;
     object-fit: cover;
     position: relative;
     margin: 0%;
