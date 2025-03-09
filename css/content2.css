@@ -56,22 +56,26 @@ font-variation-settings:
 }
 
 #importance {
-    background-image: url("../images/main image 3.jpg"); /* Adjust path if needed */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white; /* Ensures text is readable */
-    padding: 50px;
-    border-radius: 10px;
     position: relative;
-    text-align: center; /* Centers text */
+    text-align: center;
+    color: white;
 }
 
-#importance .overlay {
-    background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for better readability */
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
+#importance img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#importance h2, #importance p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6); /* Dark transparent background for readability */
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%; /* Adjust width for better text wrapping */
 }
 
 .navcon {
