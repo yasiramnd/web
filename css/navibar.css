@@ -48,7 +48,7 @@ nav {
 
 .logo-white,
 .logo-blue {
-  aspect-ratio: 0.1;
+  aspect-ratio: 1;
   height: 5.2rem;
   transition: opacity 0.3s ease-in-out;
 }
