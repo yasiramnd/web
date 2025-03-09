@@ -176,17 +176,17 @@ nav {
   color: var(--mainBlue);
   background-color: var(--mainWhite);
 }
-  .active {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 0px 32px 0 rgba(238, 255, 0, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-  }
+.active {
+  background: rgba(255, 255, 255, 0.063);
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2), 0 0px 5px rgba(4, 4, 4, 0.3);
+  backdrop-filter: blur(6px);
   
+  
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.3s ease-in-out;
+}
   .mobile-menu .active {
-    border-radius: 0;
+    border-radius:8px;
   }
 
 
