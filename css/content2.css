@@ -55,35 +55,7 @@ font-variation-settings:
     padding: 0 2rem;
 }
 
-#importance {
-    position: relative;
-    text-align: center;
-    color: white;
-}
 
-
-
-#importance h2, #importance p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.6); /* Dark transparent background for readability */
-    padding: 15px;
-    border-radius: 8px;
-    width: 80%; /* Adjust width for better text wrapping */
-}
-
-.importance img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    position: relative;
-    margin: 0%;
-    padding: 0%;
-    z-index: -1;
-  
-}
 
 .navcon {
     background-color: #006994;
