@@ -55,6 +55,25 @@ font-variation-settings:
     padding: 0 2rem;
 }
 
+#importance {
+    background-image: url("../images/ocean_health.jpg"); /* Adjust path if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Ensures text is readable */
+    padding: 50px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center; /* Centers text */
+}
+
+#importance .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
 .navcon {
     background-color: #006994;
     padding: 1rem 0;
