@@ -10,8 +10,12 @@ body{
     font-family: Arial,sans-serif;
     background-image: url('background.jpg');
     color: #333;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
     line-height: 1.6;
-    padding: 20px;
+    padding: 0px;
 }
 
 /*Header Styles*/
