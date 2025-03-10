@@ -45,7 +45,7 @@ header {
 
 /* Background Image Section */
 .background-section {
-    background: url('../images/Mission image.jpg') no-repeat center center/cover;
+    background: url('/images/Mission image.jpg') no-repeat center center/cover;
     position: relative;
     color: white;
     padding: 4rem;
@@ -53,7 +53,7 @@ header {
 }
 
 .overlay {
-    background: url('../images/Mission image.jpg') no-repeat center center/cover;
+    background: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 8px;
 }
