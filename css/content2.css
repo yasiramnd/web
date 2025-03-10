@@ -45,10 +45,10 @@ header {
 
 /* Background Image Section */
 .background-section {
-    background: url('../images/ocean.jpg') no-repeat center center/cover;
+    background: url('../images/Mission image.jpg') no-repeat center center/cover;
     position: relative;
     color: white;
-    padding: 3rem;
+    padding: 4rem;
     text-align: center;
 }
 
