@@ -13,7 +13,7 @@ body {
     padding: 20px;
     border: 1px solid black;
 }
-table {
+.table.impact {
     width: 100%;
     border-collapse: collapse;
     display: table;
