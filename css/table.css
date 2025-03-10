@@ -2,28 +2,32 @@ body {
     font-family: Arial, sans-serif;
     background-color: #e0f7fa;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 .table-container {
-    width: 150%;
-    margin: 30px auto;
+    width: 100%;
+    margin: 50px auto;
     overflow-x: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     background: white;
     padding: 110px;
     border: 1px solid black;
-    align-content: center;
 }
-.table.impact {
+table {
     width: 100%;
     border-collapse: collapse;
     display: table;
 }
+
 th, td {
     padding: 15px;
     text-align: center;
     border-bottom: 2px solid #00acc1;
+    font-size: 18px;
 }
+
 th {
     background-color: #00acc1;
     color: white;
@@ -36,5 +40,10 @@ tr:hover {
     transition: 0.3s;
 }
 .icon {
-    font-size: 20px;
+    font-size: 24px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
 }
