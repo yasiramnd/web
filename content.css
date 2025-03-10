@@ -12,6 +12,7 @@ body{
 header{
     padding: 20px;
     background-color: #0e3b5a;
+    margin-top: 170px;
 }
 
 header h1 {
@@ -30,6 +31,7 @@ header p{
 /*Button*/
 main{
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 button{
