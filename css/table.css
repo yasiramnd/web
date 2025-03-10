@@ -11,10 +11,12 @@ body {
     border-radius: 10px;
     background: white;
     padding: 20px;
+    border: 1px solid black;
 }
 table {
     width: 100%;
     border-collapse: collapse;
+    display: table;
 }
 th, td {
     padding: 15px;
