@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    font-family: "Poppins", sans-serif;
+  font-size:20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 7%;
+  max-height: 160px;
+
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--mainBlue);
+  color: var(--mainWhite);
+  box-shadow: var(--box-shadow);
+  padding: 1rem 7%;
+  height: 120px;
+  
+}
+    
+
+:root {
+    --primaryColor: #ffb534;
+    --mainWhite: rgb(251, 246, 238);
+    --mainBlue: #096799;
+    --subBlue: #74C3ED;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+    letter-spacing: var(--mainSpacing);}
+  .daka{
+  font-family: "Poppins", sans-serif;
+  font-size:20px;
+  position:sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 7%;
+  max-height: 160px;
+
+  z-index: 1000;
+
+  
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--mainBlue);
+  color: var(--mainWhite);
+  box-shadow: var(--box-shadow);
+  padding: 1rem 7%;
+  height: 120px;}
+  
+.stud {
+    text-align: center;
+    line-height: 0;
+    
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.user{
+    margin-top: 40px;
+}
+
+body {
+    background-color: #0b13b4bc;
+    padding: 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url(../images/editor/editor3back.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    border: 5px solid #3a7563;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.details h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3a7563;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.details h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.details h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3a7563;
+    margin-bottom: 20px;
+}
+.top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+        
+.top a {
+    padding: 10px 20px; /* Adds padding for button-like feel */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline */
+    border-radius: 20px; /* Rounds the corners */
+    font-size: 12px; /* Adjust font size */
+    font-weight: bold; /* Make the text stand out */
+}
+
+.top a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+.fa {
+    padding: 12px;
+    font-size: 20px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+
+.topic {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #3a7563;
+    margin-bottom: 20px;
+}
+
+
+
+
+.goToUp {
+    text-align: center;
+    margin: 30px 0 10px;
+}
+
+.goToUp a {
+    color: #3a7563;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.goToUp a:hover {
+    color: #2a5547;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .details h1 {
+        font-size: 2rem;
+    }
+    
+    .details h2 {
+        font-size: 1rem;
+    }
+    
+    .details h3 {
+        font-size: 1.2rem;
+    }
+    
+    .pages {
+        padding: 15px;
+    }
+}
+
+
+/* Sidebar styling */
+aside {
+    background-color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-left: 1rem;
+    position: absolute;
+    left: 0;
+    margin-top: 2rem;
+    width: 320px;
+}
+
+aside h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.top-level-ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.top-level-ul li {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.top-level-ul ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.top-level-ul ul li {
+    font-weight: normal;
+    margin-bottom: 0.3rem;
+}
+
+.top-level-ul a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.top-level-ul a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Box styling for your custom elements */
+.box {
+    background-color: #e9f7fe;
+    border: 1px solid #bde0fe;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 2rem;
+    position: absolute;
+    max-width: 900px;
+    right: 0px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.box .topic {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.pages {
+    
+    padding: 0.8rem;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+ 
+    margin: 20px 0;
+    border-radius: 8px;
+    border-left: 5px solid #3a7563;
+    transition: transform 0.3s ease;
+}
+
+.pages:hover {
+    transform: translateX(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pages h3 {
+    color: #3a7563;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.pages p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.pages a {
+    display: inline-block;
+    background-color: #3a7563;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.pages a:hover {
+    background-color: #2a5547;
+}
+.pages h4 {
+    color: #3498db;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Container layout for main content and sidebar */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+   
+    
+    
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+main {
+    flex: 3;
+    min-width: 65%;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    aside {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
