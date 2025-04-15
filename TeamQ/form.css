@@ -1,0 +1,170 @@
+/*General Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body Styles */
+body{
+    font-family: Arial,sans-serif;
+    background-image: url('background.jpg');
+    color: #333;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+    line-height: 1.6;
+    padding: 0px;
+}
+
+/*Header Styles*/
+h2 , h3 {
+    color:#2c3e50;
+}
+
+/*Profile Picture Section*/
+#profilepic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ClearButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#ClearButton:hover {
+    background-color: #c0392b;
+}
+
+/*Form Container*/
+form{
+    background-color: rgb(174, 208, 235);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*Input and Textarea Styles*/
+input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="number"] {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/*Checkbox and Label Styling*/
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    display:block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+/*Skill,Goal and Experience Sections*/
+h3{
+    margin-top: 30px;
+}
+
+textarea {
+    resize:vertical
+}
+
+/*Volunteering Activities and Interests Section*/
+.interest-options{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap:15px;
+}
+
+.interest-options label {
+    text-align: center;
+    flex: 1;
+    min-width: 120px;
+}
+
+.interest-options img {
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/*Availability Calendar*/
+table{ 
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+td input[type="checkbox"] {
+    margin: 0;
+}
+
+/*Contact Section*/
+button[type="submit"], button[type="reset"], button {
+    background-color:#3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover, button:hover {
+    background-color: #04436d;
+}
+
+/*View Button*/
+p{
+    color: #ccc;
+}
+
+/*Back Button*/
+a {
+    text-decoration: none;
+}
+a button {
+    background-color: #04062c;
+    color:white
+}
+
+a button:hover {
+    background-color: #04062c;
+}

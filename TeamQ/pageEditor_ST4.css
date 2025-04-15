@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #8fe7f3;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: auto;
+    border-radius: 20%;
+    margin: 20px auto;
+    display: block;
+    border: 5px solid #331b92;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.details h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3d3a75;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.details h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #162d76;
+    margin-bottom: 10px;
+}
+
+.details h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3a4175;
+    margin-bottom: 20px;
+}
+
+.fa {
+    padding: 12px;
+    font-size: 20px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.one-line-text {
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #3a4b75;
+    margin-bottom: 20px;
+}
+
+.pages {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border-left: 5px solid #3c3a75;
+    transition: transform 0.3s ease;
+}
+
+.pages:hover {
+    transform: translateX(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pages h3 {
+    color: #3e3a75;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.pages p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.pages a {
+    display: inline-block;
+    background-color: #030e24;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.pages a:hover {
+    background-color: #2a2d55;
+}
+
+.goToUp {
+    text-align: center;
+    margin: 30px 0 10px;
+}
+
+.goToUp a {
+    color: #3a5575;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.goToUp a:hover {
+    color: #2a3755;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .details h1 {
+        font-size: 2rem;
+    }
+    
+    .details h2 {
+        font-size: 1rem;
+    }
+    
+    .details h3 {
+        font-size: 1.2rem;
+    }
+    
+    .pages {
+        padding: 15px;
+    }
+}

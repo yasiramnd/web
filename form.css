@@ -168,3 +168,6 @@ a button {
 a button:hover {
     background-color: #04062c;
 }
+fieldset{
+    margin-top: 50px;
+}
