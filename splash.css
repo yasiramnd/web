@@ -1,0 +1,82 @@
+/*webstyle.css*/ 
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif; 
+    overflow: hidden; 
+}
+/*Splash screen styling*/
+.splash-screen {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 24px;
+    overflow: hidden;
+}
+/*Background Video*/
+.background-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+/*content styling*/
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.mission{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+/*Ensure text is visible on video*/
+h1, p, h3, .group_members li{
+    color: black;
+}
+/*group members section*/
+.group-title{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.group_members{
+    list-style-type: none;
+    padding: 0;
+}
+.group_members li{
+    font-size: 1rem;
+    margin: 5px 0;
+}
+/*Animated Loader*/
+.loader{
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    border-top: 5px solid #00bfff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+/*Keyframes for animation*/
+@keyframes spin{
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+/*Loading text*/
+.loading-text{
+    font-size: 1rem;
+    margin-top: 10px;
+    opacity: 0.8;
+}
