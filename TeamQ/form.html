@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="navibar.css">
+        <link rel="stylesheet" href="footer.css">
+    </head>
+    <body>
+        <nav>
+				
+            <a href="index.html" class="logo_link">
+              <div class="site-logo">
+                 <img class="logo-white" src="logo-white2.png" alt="logo white">
+                 <img class="logo-blue" src="logo-blue.png" alt="logo blue">
+                 <h1 class="topic">Life Below Water</h1>
+              </div>
+            </a>
+              
+            <div class="desktop-menu">
+                 <a class="active" href="index.html">Home</a>
+                 <a href="volunteer.html">Volunteer</a>
+                 <a href="table.html">Table</a>
+                 <a href="profile.html">User Profile</a>
+                 <a href="feedback.html">Feedback</a>
+                 <a href="sitemap.html">Sitemap</a>
+                 <a href="team.html">Team</a>
+            </div>
+            <button class="hamburger">
+               <span class="material-icons">menu</span>
+            </button>
+          </nav>
+        <form>
+            <!--Step 1 : User Avatar and Information-->
+            <!--Profile Picture Section-->
+            <fieldset>
+                <legend><h2>User Avatar and Information</h2></legend>
+
+                <h3>Profile Picture</h3>
+                        
+                <label for="profilepic">Upload Your profile picture: </label><br>
+                <input type="file" id="profilepic" name="profilepic" accept="image/*">
+                <button type="reset" id="clearBtn">Clear</button>
+
+                <!--User Details section-->
+                <h3>User Details</h3>
+
+                <label for="full_name">Your Full Name : </label>
+                <input type="text" id="full_name" name="full_name" pattern="[A-Za-z\s]+" required>
+                        
+                <br><br>
+
+                <label for="professional_role">Professional role/title : </label>
+                <input type="text" id="professional_role" name="professional_role" pattern="[A-Za-z\s]+" required>
+
+            </fieldset>
+                   
+            <br><br>
+
+            <!--Step 2 : Profile Information Section-->
+            <!--Introduction section-->
+            <fieldset>
+                <legend><h2>Profile Information</h2></legend>
+                <h3>Introduction</h3>
+
+                <label for="intro">Introduction: </label>
+                <input type="text" id="intro" placeholder="Write a short intro about you">
+
+                <!--Skills section-->
+                <h3>Skills</h3>
+                    <!--Skill 1-->
+                    <label for="skill">Skill Name: </label>
+                    <input type="text" id="skill" required>
+                    <label for="skillLevel">Skill Level (0 - 10)</label>
+                    <input type="number" id="skillLevel" name="skillLevel" min="0" max="10" required>
+                    <br>
+
+                    <!--Skill 2-->
+                    <label for="skill">Skill Name: </label>
+                    <input type="text" id="skill" required>
+                    <label for="skillLevel">Skill Level (0 - 10)</label>
+                    <input type="number" id="skillLevel" name="skillLevel" min="0" max="10" required>
+                    <br>
+
+                    <!--Skill 3-->
+                    <label for="skill">Skill Name: </label>
+                    <input type="text" id="skill" required>
+                    <label for="skillLevel">Skill Level (0 - 10)</label>
+                    <input type="number" id="skillLevel" name="skillLevel" min="0" max="10" required>
+                    <br><br>
+
+                    <!--Goals section-->
+                    <h3>Goals</h3>
+
+                    <!--Goal 1-->
+                    <label for="goal">Goal Name: </label>
+                    <input type="text" id="goal" required>
+                    <label for="goallLevel">Goal Level (0 - 10)</label>
+                    <input type="number" id="goalLevel" name="goalLevel" min="0" max="10" required>
+                    <br>
+
+                    <!--Goal 2-->
+                    <label for="goal">Goal Name: </label>
+                    <input type="text" id="goal" required>
+                    <label for="goallLevel">Goal Level (0 - 10)</label>
+                    <input type="number" id="goalLevel" name="goalLevel" min="0" max="10" required>
+                    <br>
+
+                    <!--Goal 3-->
+                    <label for="goal">Goal Name: </label>
+                    <input type="text" id="goal" required>
+                    <label for="goallLevel">Goal Level (0 - 10)</label>
+                    <input type="number" id="goalLevel" name="goalLevel" min="0" max="10" required>
+                           
+                <br><br>
+
+                <!--Experience section-->
+                <h3>Experiences</h3>
+                <label for="experience">Share Your experiences: </label>
+                <textarea id="experience" name="experience" rows="6" placeholder="Write about your past roles,projects,achievements or any relavant experiences.."></textarea>                    
+            </fieldset>
+            
+            <br><br>
+
+            <!--Step 3 : Volunteering-->
+            <fieldset>
+                <legend><h2>Volunteering</h2></legend>
+                <p>Select the activities you are involved in or support: </p>
+
+                <!--Choose volunteering Activities with checkboxes-->
+                <label><input type="checkbox" name="volunteering" value="ocean-cleanup">🌊Ocean Cleanup Drives</label><br>
+                <label><input type="checkbox" name="volunteering" value="marine-conservation">🐠Marine Life Conservation</label><br>
+                <label><input type="checkbox" name="volunteering" value="beach-waste">🚮Beach Waste Management</label><br>
+                <label><input type="checkbox" name="volunteering" value="coral-reef">🪸Coral Reef Restoration</label><br>
+                <label><input type="checkbox" name="volunteering" value="other">🏖️Other</label><br>                   
+                <!--Other Volunteering Activity-->
+                <label for="volunteer-other">If you choose <b>Other</b>,Add your own volunteering activities: </label>
+                <textarea id="volunteer-other" name="volunteer-other" rows="4" cols="50" placeholder="Eg:Cleaning beach in your area,Saving sea Turtles..."></textarea>
+            </fieldset>
+            <br><br>
+
+           <!--Step 4: Interests-->
+            <fieldset>
+                <legend><h2>Interests</h2></legend>
+                <p>Select your areas of interests related to ocean conservation: </p>
+                <div class="interest-options">
+                    <label>
+                        <input type="checkbox" name="interest" value="coralReef"><br>
+                        <img src="images/coral-reef.jpg" alt="Coral Reef Conservation" /><br>
+                        <span>Coral Reef Conservation</span> 
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="interest" value="marinelifeprotection"><br>
+                        <img src="images/marine-life-protection.jpg" alt="Marine Life Protection" /><br> 
+                        <span>Marine Life Protection</span>
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="interest" value="plasticwastereduction"><br>
+                        <img src="images/plastic-waste-reduction.jpg" alt="Plastic Waste Reduction" /><br> 
+                        <span>Plastic Waste Reduction</span>
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="interest" value="sustainableFishing"><br>
+                        <img src="images/sustainable-fishing.jpg" alt="Sustainable Fishing" /><br>
+                        <span>Sustainable Fishing</span>
+                    </label><br>
+                </div>
+            </fieldset>
+            <br><br>
+
+            <!--Step 5:Calander-->
+            <fieldset>
+                <legend><h2>Availability Calander</h2></legend>
+                <p>Mark Your available days for volunteering or meetings : </p>
+                <table>
+                        <thead>
+                            <tr>
+                                <th colspan="7">March-2025</th>
+                            </tr>
+                            <tr>
+                                <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td><input type="checkbox" id="day1">1</td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" id="day2">2</td>
+                                <td><input type="checkbox" id="day3">3</td>
+                                <td><input type="checkbox" id="day4">4</td>
+                                <td><input type="checkbox" id="day5">5</td>
+                                <td><input type="checkbox" id="day6">6</td>
+                                <td><input type="checkbox" id="day7">7</td>
+                                <td><input type="checkbox" id="day8">8</td>   
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" id="day9">9</td>
+                                <td><input type="checkbox" id="day10">10</td>
+                                <td><input type="checkbox" id="day11">11</td>
+                                <td><input type="checkbox" id="day12">12</td>
+                                <td><input type="checkbox" id="day13">13</td>
+                                <td><input type="checkbox" id="day14">14</td>
+                                <td><input type="checkbox" id="day15">15</td>
+                            </tr>
+
+                            <tr><td><input type="checkbox" id="day16">16</td>
+                                <td><input type="checkbox" id="day17">17</td>
+                                <td><input type="checkbox" id="day18">18</td>
+                                <td><input type="checkbox" id="day19">19</td>
+                                <td><input type="checkbox" id="day20">20</td>
+                                <td><input type="checkbox" id="day21">21</td>
+                                <td><input type="checkbox" id="day22">22</td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" id="day23">23</td>
+                                <td><input type="checkbox" id="day24">24</td>
+                                <td><input type="checkbox" id="day25">25</td>
+                                <td><input type="checkbox" id="day26">26</td>
+                                <td><input type="checkbox" id="day27">27</td>
+                                <td><input type="checkbox" id="day28">28</td>
+                                <td><input type="checkbox" id="day29">29</td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox" id="day30">30</td>
+                                <td><input type="checkbox" id="day31">31</td>
+                                <td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                        </tbody>
+                </table>
+            </fieldset>
+            <br>
+
+            <!--Step 6: Contact Details-->
+            <fieldset>
+                <legend><h2>Contact Details</h2></legend>
+                <label for="name">Full Name: </label>
+                <input type="text" id="name" name="name" pattern="[A-Za-z\s]+" required>
+                <br><br>
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                <br><br>
+                <label for="phone">Contact Number</label>
+                <input type="tel" id="phone" name="phone" pattern="\d{10}" required>
+                <label for="message">Message or Inquiry</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </fieldset>
+
+            <br><br>
+            
+                <button type="submit">Send</button>
+
+            <br><br>
+        </form>
+
+        <p>Click the <b>View </b>button to view profile</p>
+
+        <a href="display.html">
+
+            <button>View</button>
+        </a>
+
+         <br><br>
+            <a href="profile.html">
+                <button>Back</button>
+            </a>    
+            <footer class="footer">
+                <ul class="menu">
+                  <li class="menu_item">
+                    <a class="menu_link" href="index.html">Home</a>
+                  </li>
+                  <li class="menu_item">
+                    <a class="menu_link" href="volunteer.html">Volunteer</a>
+                  </li>
+                  <li class="menu_item">
+                    <a class="menu_link" href="table.html">Table</a>
+                  </li>
+                  <li class="menu_item">
+                    <a class="menu_link" href="user-profile.html">User Profile</a>
+                  </li>
+                  <li class="menu_item">
+                    <a class="menu_link" href="feedback.html">Feedback</a>
+                  </li>
+                  <li class="menu_item">
+                    <a class="menu_link" href="sitemap.html">Sitemap</a>
+                  </li>
+                  <li class="menu_item">
+                      <a class="menu_link" href="content3.html">Contentpage</a>
+                    </li>
+                  <li class="menu_item">
+                    <a class="menu_link" href="team.html">Team</a>
+                  </li>
+                </ul>
+                <p>©2025 LIFE Below Water | All Rights Reserved</p>
+             </footer>            
+    </body>
+</html>
