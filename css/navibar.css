@@ -30,8 +30,6 @@ nav {
 
   background-color: var(--mainBlue);
   color: var(--mainWhite);
-  box-shadow: var(--box-shadow);
-  padding: 1rem 7%;
   height: 120px;
   
 
@@ -62,17 +60,6 @@ nav {
   border-radius: 0 15px 15px 0;
   padding-left: 0.5rem;
   line-height: 0.99;
-}
-
-.site-logo:hover {
-  cursor: pointer;
-  .logo-white {
-    display: none;
-  }
-  .logo-blue {
-    display: block;
-  }
-  background-color: var(--mainWhite);
 }
 
 .site-logo:hover {
