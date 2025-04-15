@@ -98,7 +98,7 @@ body {
 
 
 .topic {
-    text-align: center;
+    position: relative;
     font-size: 1.5rem;
     color: #3a7563;
     margin-bottom: 20px;
