@@ -16,37 +16,7 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background: linear-gradient(135deg, #0077be, #00a6d6);
-    color: white;
-    text-align: center;
-    padding: 3rem 1rem;
-}
 
-.navcon {
-    background-color: #006994;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-.navcon ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.navcon ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-.navcon ul li a:hover {
-    color: #f0f0f0;
-    text-decoration: underline;
-}
 
 /* Background Image Section */
 .background-section {
