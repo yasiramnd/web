@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Volunteer Application Form</title>
+        <link rel="stylesheet" href="volunteerformstyle.css">
+        <link rel="stylesheet" href="navibar.css">
+        <link rel="stylesheet" href="footer.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+               
+              <a href="index.html" class="logo_link">
+                <div class="site-logo">
+                   <img class="logo-white" src="images/logo-white2.png" alt="logo white">
+                   <img class="logo-blue" src="images/logo-blue.png" alt="logo blue">
+                   <h2 class="topic">Life Below Water</h2>
+                </div>
+              </a>
+                
+              <div class="desktop-menu">
+                   <a href="index.html">Home</a>
+                   <a class="active" href="volunteer.html">Volunteer</a>
+                   <a href="table.html">Table</a>
+                   <a href="profile.html">User Profile</a>
+                   <a href="feedback.html">Feedback</a>
+                   <a href="sitemap.html">Sitemap</a>
+                   <a href="team.html">Team</a>
+              </div>
+              <button class="hamburger">
+                 <span class="material-icons">menu</span>
+              </button>
+            </nav>
+            <div class="mobile-menu">
+               <a class="active" href="home.html">Home</a>
+               <a href="volunteer.html">Volunteer</a>
+               <a href="table.html">Table</a>
+               <a href="profile.html">User Profile</a>
+               <a href="feedback.html">Feedback</a>
+               <a href="sitemap.html">Sitemap</a>
+               <a href="team.html">Team</a>
+            </div>
+        </header>
+        <div class="form-menu">
+          <header>
+            <h1>Volunteer Application Form</h1>
+          </header>
+          <section class="form-container">
+            <h2>Apply Now</h2>
+            <form action="submit_form.php" method="post">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required>
+              <label for="program">Select Program:</label>
+              <select id="program" name="program" required>
+                <option value="" disabled selected>Select a program:</option>
+                <option value="sea_turtle">Sea Turtle Conservation</option>
+                <option value="coral_reef">Coral Reef Restoration</option>
+                <option value="ocean_cleanup">Ocean Cleanup Initiatives</option>
+                <option value="marine_research">Marine Wildlife Research</option>
+              </select>
+              <label for="message">Why do you want to volunteer?</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+          </section>
+          <button class="back-btn" onclick="location.href='index.html'">Back to Programs</button>
+        </div>
+
+        <footer class="footer">
+            <ul class="menu">
+              <li class="menu_item">
+                <a class="menu_link" href="index.html">Home</a>
+              </li>
+              <li class="menu_item">
+                <a class="menu_link" href="volunteer.html">Volunteer</a>
+              </li>
+              <li class="menu_item">
+                <a class="menu_link" href="table.html">Table</a>
+              </li>
+              <li class="menu_item">
+                <a class="menu_link" href="user-profile.html">User Profile</a>
+              </li>
+              <li class="menu_item">
+                <a class="menu_link" href="feedback.html">Feedback</a>
+              </li>
+              <li class="menu_item">
+                <a class="menu_link" href="sitemap.html">Sitemap</a>
+              </li>
+              <li class="menu_item">
+                  <a class="menu_link" href="content_ST1.html">Contentpage</a>
+                </li>
+              <li class="menu_item">
+                <a class="menu_link" href="team.html">Team</a>
+              </li>
+              <li class="menu_item">
+                <a class="menu_link" href="pageEditor_ST1.html">Editors Page</a>
+              </li>
+            </ul>
+            <p>©2025 LIFE Below Water | All Rights Reserved</p>
+         </footer>
+    </body>
+</html>

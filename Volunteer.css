@@ -1,0 +1,121 @@
+/*General Styles*/ 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+.programs-menu{
+    padding: 125px;
+}
+/*Header*/
+header{
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+h1{
+    margin: 0;
+}
+/*Volunteer Programs Grid*/
+.programs{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.program-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.volunteer-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 250px;
+    text-align: left;
+}
+.volunteer-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.volunteer-card h2{
+    color: #0077b6;
+}
+/*Apply Button*/
+.apply-btn{
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 20px 0;
+}
+.apply-btn:hover{
+    background-color: #005f8d;
+}
+/*Reviews Section*/
+.reviews{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.review-card{
+    background: #eef;
+    border-left: 5px solid #0077b6;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    text-align: left;
+}
+/*Feedback Form*/
+.feedback{
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.rating-buttons button {
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+.submit-btn, .cancel-btn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.submit-btn{
+    background-color: #0077b6;
+    color: white;
+}
+.submit-btn:hover{
+    background: #005f8d;
+}
+.cancel-btn{
+    background-color: gray;
+    color: black;
+}
+.cancel-btn:hover{
+    background: darkgray;
+}
